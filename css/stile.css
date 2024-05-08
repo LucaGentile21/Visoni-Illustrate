@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.nav {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    font-family: 'inter',sans-serif;
+  }
+  
+  .nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 8px;
+    margin: 0 2px;
+  }
+  
+  
+  body{ 
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+main {
+    max-width: 1250px; 
+    margin: 0 auto;
+
+
+}
+
+.hero p {
+    margin: 0;
+    padding-top: 2;
+}
+
+.hero {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 130px;
+
+}
+
+
+.titolo {
+    margin: 0 0 0 20px; 
+    padding: 0;
+
+}
+
+.titolo h1, .titolo h2 {
+    margin: 0; 
+    padding: 0;
+    font-family: 'inter',sans-serif;
+    font-size: 40px;
+}
+
+.h3 {
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: 'inter',sans-serif;
+    padding-bottom: 50px;
+}
+
+
+
+.immagini {
+    column-count: 3;
+    margin: 0 ;
+    column-gap: 25px;
+}
+
+.immagini img {
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+@media (max-width:600px) {
+    .grid {
+        column-count: 1;
+    }
+}
+.footer {
+    background-color: #000000;
+    justify-content: space-between;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 55px 20px;
+    margin-top: 100px;    font-family: 'inter',sans-serif;
+  }
+  .footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 8px;
+    margin: 0 0 0 ;
+    margin-right: 25px;
+  }
+  
+
+     .titoloartisti{
+        text-align: center;
+        margin: auto; 
+        font-family: 'inter',sans-serif;
+        font-size: 55px;
+        padding: auto;
+        justify-content: center;
+    }
+
+    .infoartisti{
+        font-family: 'inter',sans-serif;
+    padding-left: 50px;
+    
+    
+}
+.scrittartisti{
+line-height: 35px;
+padding: auto;
+margin-left: 100px;
+margin-right: 100px;
+}
+.presentazione{
+    padding-top: 35px;
+    margin-left: 100px;
+}
+.vociartisti{
+padding-top: 30px;
+padding-bottom: 30px;
+    word-wrap: normal;
+    justify-content: baseline;
+    line-height: 55px;
+    text-align: center;
+    
+    font-family: "Cutive Mono", monospace;
+    font-style: inherit;
+    padding-left: 18px;
+    padding-bottom: 40px;
+    font-size: 30px;
+       }
+       
+.vociartisti a{
+    color: black;
+}
+
+    .immaginiartisti {
+        column-count: 3;
+        margin: 0 ;
+        column-gap: 25px;
+    }
+    .immaginiartisti img {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .testojean{
+     text-align: left;
+        font-family: 'inter',sans-serif;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 40px;
+        
+    }
+.testomichelle{
+    text-align: left;
+        font-family: 'inter',sans-serif;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 40px
+
+}
+.testopaul{
+    text-align: left;
+        font-family: 'inter',sans-serif;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 40px
+
+}
+.mostratesto{
+    font-family: 'inter',sans-serif;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 40px
+    }
+    .testoinfo{
+        font-family: 'inter',sans-serif;
+        line-height: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 40px
+
+    }

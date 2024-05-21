@@ -120,12 +120,12 @@ main {
 .scrittartisti{
 line-height: 35px;
 padding: auto;
-margin-left: 100px;
-margin-right: 100px;
+margin: auto;
 }
 .presentazione{
     padding-top: 35px;
-    margin-left: 100px;
+margin: auto;
+padding: auto;
 }
 .vociartisti{
 padding-top: 30px;
@@ -152,7 +152,7 @@ padding-bottom: 30px;
         column-gap: 25px;
     }
     .immaginiartisti img {
-        margin: 0;
+        margin: auto;
         max-width: 100%;
         margin-bottom: 16px;
     }

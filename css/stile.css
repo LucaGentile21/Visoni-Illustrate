@@ -191,11 +191,10 @@ padding-bottom: 30px;
         margin-right: 100px;
         padding-bottom: 40px
     }
-    .testoinfo{
+.testoinfo{
         font-family: 'inter',sans-serif;
         line-height: 35px;
-        margin-left: 100px;
-        margin-right: 100px;
-        padding-bottom: 40px
-
+        margin-left: 400px;
+        margin-right: 400px;
+        padding-bottom: 60px
     }
